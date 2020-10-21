@@ -1,3 +1,8 @@
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+
 function forLoop(array) {
   for(let i=0; i<25; i++) {
     array.push(`I am ${i} strange loop${i === 0 ? '' : 's' }.`)
@@ -15,4 +20,4 @@ function doWhileLoop(num){
   console.log("I run once regardless")
   console.log(num)
   num--;
-} while(num > 0);
+} while(incrementVariable() < 0);
