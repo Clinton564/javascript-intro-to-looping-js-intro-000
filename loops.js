@@ -19,5 +19,7 @@ function whileLoop(n) {
 
 function doWhileLoop(num){
   console.log("I run once regardless")
-  console.log(incrementVariable()" < "num)
+  console.log(incrementVariable())
+  console.log("<")
+  console.log(num)
 } while(incrementVariable() < num);
