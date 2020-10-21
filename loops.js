@@ -4,7 +4,7 @@ forLoop(array) {
   }
 }
 
-forLoop(array) {
+whileLoop(n) {
 
-
+  
 }
