@@ -4,7 +4,7 @@ function forLoop(array) {
   }
 }
 
-funciton whileLoop(n) {
+function whileLoop(n) {
 
 
 }
