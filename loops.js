@@ -24,5 +24,5 @@ do {
   console.log(incrementVariable());
   console.log("<");
   console.log(num);
-} while(1 < num);
+} while(incrementVariable() < num);
 }
