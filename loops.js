@@ -3,3 +3,8 @@ forLoop(array) {
     array.push(`"I am ${i} strange loop${i === 0 ? '' : 's' }."`)
   }
 }
+
+forLoop(array) {
+
+
+}
