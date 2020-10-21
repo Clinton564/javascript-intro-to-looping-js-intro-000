@@ -22,4 +22,4 @@ function doWhileLoop(num){
   console.log(incrementVariable());
   console.log("<");
   console.log(num);
-} while(incrementVariable() < num);
+} while(1 < num);
